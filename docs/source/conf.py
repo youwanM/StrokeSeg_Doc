@@ -41,3 +41,11 @@ html_theme = 'sphinx_rtd_theme'
 # -- Options for EPUB output -------------------------------------------------
 
 epub_show_urls = 'footnote'
+
+# -- Options for LOGO -------------------------------------------------
+# Add path to custom static files
+html_static_path = ['_static']
+
+# Set the logo (path is relative to _static/)
+html_logo = "_static/logo.png"
+html_favicon = "_static/favicon.ico"
