@@ -14,5 +14,5 @@ StrokeSeg Documentation
 API Documentation
 =================
 
-- `Python API Documentation <python_doc/index.html>`_
-- `C++ API Documentation <cpp_doc/index.html>`_
+- `Python API Documentation <https://empenn-stroke.github.io/StrokeSegLab_doc/>`_
+- `C++ API Documentation <https://empenn-stroke.github.io/StrokeSegBootstrapper_doc/>`_
