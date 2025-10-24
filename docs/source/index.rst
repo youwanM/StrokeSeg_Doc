@@ -1,9 +1,13 @@
 StrokeSeg Documentation
 =======================
 
+.. warning::
+
+   This application is for research purpose only!
+
 .. note::
 
-   ⚠ This application is for research purpose only!
+   The repositories will be publicly available once the ISBI submission process is complete.
 
 .. toctree::
    :maxdepth: 2
