@@ -21,10 +21,10 @@ API Documentation
 - `Python API Documentation <https://empenn-stroke.github.io/StrokeSegLab_doc/>`_
 - `C++ Bootstrapper Documentation <https://empenn-stroke.github.io/StrokeSegBootstrapper_doc/>`_
 
-Interactive Venn Diagram
-------------------------
+Repositories
+------------
+Click on each circle intersection to reach the corresponding repository
 
-.. raw:: html
-
+... raw:: html
    <iframe src="_static/venn.html" width="600" height="600" style="border:none;"></iframe>
 
