@@ -23,8 +23,11 @@ API Documentation
 
 Repositories
 ------------
-Click on each circle intersection to reach the corresponding repository
 
-... raw:: html
+Click on each circle intersection to reach the corresponding repository.
+
+.. raw:: html
+
    <iframe src="_static/venn.html" width="600" height="600" style="border:none;"></iframe>
+
 
