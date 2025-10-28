@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<title>Interactive Venn SVG</title>
+<style>
+  /* Pointer cursor and smooth hover for clickable paths */
+  .clickable {
+    cursor: pointer;
+    transition: fill-opacity 0.5s;
+  }
+</style>
+</head>
+<body>
+
+<!-- Load your SVG as an object -->
+<object id="venn" type="image/svg+xml" data="venn.svg" width="500" height="500"></object>
+
+<script>
+  // Map of path IDs to URLs
+  const clickablePaths = {
+    'circle3': 'https://github.com/Empenn-Stroke/StrokeSegLab',
+    'circle5': 'https://github.com/Empenn-Stroke/StrokeSegBootstrapper',
+    'circle7': 'https://github.com/Empenn-Stroke/StrokeSegApp'
+  };
+
+  document.getElementById('venn').addEventListener('load', function() {
+    const svgDoc = this.contentDocument; // Access SVG inside <object>
+    if (!svgDoc) return;
+
+    // Loop over all paths and attach events
+    Object.keys(clickablePaths).forEach(id => {
+      const path = svgDoc.getElementById(id);
+      if (!path) return;
+
+      // Add clickable class for CSS
+      path.classList.add('clickable');
+
+      // Click event
+      path.addEventListener('click', () => {
+        window.open(clickablePaths[id], '_blank');
+      });
+
+      // Hover effects
+      path.addEventListener('mouseenter', () => {
+        path.style.fillOpacity = 0.5;
+      });
+      path.addEventListener('mouseleave', () => {
+        path.style.fillOpacity = 0;
+      });
+    });
+  });
+</script>
+
+</body>
+</html>
