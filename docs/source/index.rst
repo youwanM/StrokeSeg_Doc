@@ -22,7 +22,9 @@ API Documentation
 - `C++ Bootstrapper Documentation <https://empenn-stroke.github.io/StrokeSegBootstrapper_doc/>`_
 
 Interactive Venn Diagram
-========================
+------------------------
+
 .. raw:: html
 
    <iframe src="_static/venn.html" width="600" height="600" style="border:none;"></iframe>
+
