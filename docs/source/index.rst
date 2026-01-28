@@ -35,7 +35,13 @@ Model Checkpoints are available here :
 
 .. raw:: html
 
-   <iframe src="_static/venn.html" width="600" height="600" style="border:none;"></iframe>
+   <div style="margin-bottom: 0;">
+     <iframe src="_static/venn.html"
+             width="600"
+             height="600"
+             style="border:none; display:block;">
+     </iframe>
+   </div>
 
 References
 ----------
