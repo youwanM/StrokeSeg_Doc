@@ -38,7 +38,7 @@ Model Checkpoints are available here :
    <div style="margin-bottom: 0;">
      <iframe src="_static/venn.html"
              width="600"
-             height="600"
+             height="400"
              style="border:none; display:block;">
      </iframe>
    </div>
