@@ -11,6 +11,10 @@ StrokeSeg Documentation
 
    USER_GUIDE
 
+Software description at :cite:p:`kerverdo2025`.
+
+Model description at :cite:p:`dimatteo2026`.
+
 API Documentation
 =================
 
@@ -21,13 +25,28 @@ Repositories
 ------------
 
 Click on each circle intersection to reach the corresponding repository.
-
-.. raw:: html
-
-   <iframe src="_static/venn.html" width="600" height="600" style="border:none;"></iframe>
-
 Or simply access :  
    - `StrokeSeg Lab (Scientific code) <https://github.com/Empenn-Stroke/StrokeSegLab>`_
    - `StrokeSeg App (Compiled binaries, installer) <https://github.com/Empenn-Stroke/StrokeSegApp>`_
+
+Model Checkpoints are available here :
+   - T1-w only: `Zenodo <https://zenodo.org/records/18360630>`_
+   - T1-w and FLAIR fine-tuned: Soon
+
+.. raw:: html
+
+   <div style="margin-bottom: 0;">
+     <iframe src="_static/venn.html"
+             width="600"
+             height="400"
+             style="border:none; display:block;">
+     </iframe>
+   </div>
+
+References
+----------
+
+.. bibliography::
+
 
 
