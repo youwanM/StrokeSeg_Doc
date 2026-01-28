@@ -52,5 +52,5 @@ html_logo = "_static/logo.png"
 html_favicon = "_static/favicon.ico"
 
 bibtex_bibfiles = ["references.bib"]
-bibtex_default_style = "apalike"
+bibtex_default_style = "plain"
 
