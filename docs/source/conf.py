@@ -17,6 +17,7 @@ extensions = [
     'sphinx.ext.autodoc',
     'sphinx.ext.autosummary',
     'sphinx.ext.intersphinx',
+    "sphinxcontrib.bibtex",
     'myst_parser',   # 👈 enables Markdown support
 ]
 
@@ -49,3 +50,5 @@ html_static_path = ['_static']
 # Set the logo (path is relative to _static/)
 html_logo = "_static/logo.png"
 html_favicon = "_static/favicon.ico"
+
+bibtex_bibfiles = ["references.bib"]
